@@ -1,10 +1,4 @@
 .container {
-  padding: 20px;
-  max-width: 400px;
-  margin: 20px auto;
-  background-color: #f7f7f7;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .title {
@@ -23,4 +17,38 @@
   font-size: 16px;
   color: #555;
   margin-bottom: 8px;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: aqua;
+  border-radius: 15px;
+}
+
+.props {
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-weight: 700;
+  font-size: 42px;
+}
+span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.counter {
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
 }
