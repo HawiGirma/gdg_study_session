@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #fbbc04; */
+  padding: 12px;
+  color: black;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Left section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  color: grey;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Center search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 238, 238);
+  border-radius: 8px;
+  padding: 5px 10px;
+  width: 30%;
+}
+
+.search-input {
+  margin-left: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 1rem;
+}
+
+/* Right section */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Icon styles */
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+/* ////////////////////////////////// */
+/* Sidebar Container */
+.sidebar-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Menu Button */
+.menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-btn .icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #444;
+}
+
+.sidebar .icon {
+  width: 25px;
+  height: 25px;
+}
+
+.note-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.note-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.icon:hover {
+  opacity: 1;
+}
